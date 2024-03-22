@@ -13,6 +13,7 @@ function Show({ bread }) {
                 }
                 have gluten
             </p>
+            <p>{bread.getBakedBy()}.</p>
             <img src={bread.image} alt={bread.name} />
             <li>
                 <a href='/bread'>Go Home</a>
